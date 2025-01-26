@@ -8,7 +8,7 @@ class EventStatusService {
 
         // Check if the event is today, in the past, or in the future
         if calendar.isDateInToday(dueDate) {
-            return Image(systemName: "calendar.and.person")
+            return Image(systemName: "calendar.badge.checkmark")
                 .renderingMode(.template)
                 .foregroundColor(.green)
         } else if dueDate > currentDate {
