@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E31F7752D46636F00BDA817 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31F7742D46636F00BDA817 /* TodoModel.swift */; };
+		0E31F7772D46672000BDA817 /* DateFormatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31F7762D46672000BDA817 /* DateFormatService.swift */; };
+		0E31F7792D46672F00BDA817 /* TodoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31F7782D46672F00BDA817 /* TodoService.swift */; };
+		0E31F77B2D46677200BDA817 /* EventStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E31F77A2D46677200BDA817 /* EventStatusService.swift */; };
+		0E41CF072D464F5900C85783 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41CF062D464F5900C85783 /* AddTodoView.swift */; };
+		0E41CF092D464F7900C85783 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41CF082D464F7900C85783 /* TodoDetailView.swift */; };
 		0E89EB062D45AB4000DCBE99 /* Free_Time_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89EB052D45AB4000DCBE99 /* Free_Time_TrackerApp.swift */; };
 		0E89EB082D45AB4000DCBE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89EB072D45AB4000DCBE99 /* ContentView.swift */; };
 		0E89EB0A2D45AB4100DCBE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E89EB092D45AB4100DCBE99 /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E31F7742D46636F00BDA817 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		0E31F7762D46672000BDA817 /* DateFormatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatService.swift; sourceTree = "<group>"; };
+		0E31F7782D46672F00BDA817 /* TodoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoService.swift; sourceTree = "<group>"; };
+		0E31F77A2D46677200BDA817 /* EventStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStatusService.swift; sourceTree = "<group>"; };
+		0E41CF062D464F5900C85783 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		0E41CF082D464F7900C85783 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		0E89EB022D45AB4000DCBE99 /* Free Time Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Free Time Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E89EB052D45AB4000DCBE99 /* Free_Time_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Free_Time_TrackerApp.swift; sourceTree = "<group>"; };
 		0E89EB072D45AB4000DCBE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E31F77C2D46681800BDA817 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0E31F77A2D46677200BDA817 /* EventStatusService.swift */,
+				0E31F7782D46672F00BDA817 /* TodoService.swift */,
+				0E31F7762D46672000BDA817 /* DateFormatService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0E31F77D2D46682F00BDA817 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E31F7742D46636F00BDA817 /* TodoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E31F77E2D46683D00BDA817 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E41CF082D464F7900C85783 /* TodoDetailView.swift */,
+				0E41CF062D464F5900C85783 /* AddTodoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0E89EAF92D45AB4000DCBE99 = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				0E89EB052D45AB4000DCBE99 /* Free_Time_TrackerApp.swift */,
+				0E31F77E2D46683D00BDA817 /* Views */,
 				0E89EB072D45AB4000DCBE99 /* ContentView.swift */,
+				0E31F77C2D46681800BDA817 /* Services */,
+				0E31F77D2D46682F00BDA817 /* Models */,
 				0E89EB092D45AB4100DCBE99 /* Assets.xcassets */,
 				0E89EB0B2D45AB4100DCBE99 /* Preview Content */,
 			);
@@ -259,6 +301,12 @@
 			files = (
 				0E89EB082D45AB4000DCBE99 /* ContentView.swift in Sources */,
 				0E89EB062D45AB4000DCBE99 /* Free_Time_TrackerApp.swift in Sources */,
+				0E31F77B2D46677200BDA817 /* EventStatusService.swift in Sources */,
+				0E41CF072D464F5900C85783 /* AddTodoView.swift in Sources */,
+				0E31F7752D46636F00BDA817 /* TodoModel.swift in Sources */,
+				0E31F7792D46672F00BDA817 /* TodoService.swift in Sources */,
+				0E31F7772D46672000BDA817 /* DateFormatService.swift in Sources */,
+				0E41CF092D464F7900C85783 /* TodoDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
