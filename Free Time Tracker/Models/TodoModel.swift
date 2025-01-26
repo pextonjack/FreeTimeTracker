@@ -23,7 +23,7 @@ struct TodoItem: Identifiable, Codable {
 let periodsList = [
     "AM Registration", "Period 0", "Period 1", "Period 2", "Period 3", "Break",
     "Period 4", "Period 5", "Period 6a", "Period 6b", "PM Registration",
-    "Period 7", "Period 8", "Period 9", "Period 10"
+    "Period 7", "Period 8", "Period 9", "Period 10", "Any Time"
 ]
 
 struct MultipleSelectionRow: View {
